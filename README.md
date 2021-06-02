@@ -28,9 +28,9 @@ Notepad++
 "Die Datei "C:\Users\....._Windows10.ps1" kann nicht geladen werden. Die Datei "C:\Users\....._Windows10.ps1" ist nicht digital signiert. Sie können dieses Skript im aktuellen System nicht ausführen. Weitere Informationen zum Ausführen von Skripts und Festlegen der Ausführungsrichtlinie erhalten Sie unter "about_Execution_Policies".."
 
 PS> 
- Set-ExecutionPolicy Unrestricted -Scope CurrentUser 
+ Set-ExecutionPolicy Unrestricted -Scope CurrentUser oder
  
- Set-ExecutionPolicy Allsigned -Scope CurrentUser 
+ Set-ExecutionPolicy Allsigned -Scope CurrentUser oder
  
  Set-ExecutionPolicy Restricted -Scope CurrentUser 
 
